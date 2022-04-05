@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.996">
+    <testcase classname="Order" name="Order" time="19.446">
+        <system-out><![CDATA[Given User is on sauce demo login page......................................passed
+When User fill standard_user and secret_sauce...............................passed
+And User click login button.................................................passed
+Then User verify login Passed...............................................passed
+When User add product to cart...............................................passed
+And User click cart button..................................................passed
+And User click check out button.............................................passed
+Then User is on check out page..............................................passed
+When User fill check out info...............................................passed
+And User click continue button..............................................passed
+And User overview and finish order..........................................passed
+Then User is on thank you order page........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
