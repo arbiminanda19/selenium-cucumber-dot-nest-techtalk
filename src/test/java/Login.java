@@ -1,5 +1,3 @@
-package stepDef;
-
 import config.env_target;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
