@@ -12,7 +12,7 @@ public class Login extends env_target {
     @Test
     public void main() {
 
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
