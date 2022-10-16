@@ -16,7 +16,7 @@ public class Login extends env_target {
 
     @Given("User is on login page")
     public void user_is_on_login_page() {
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
