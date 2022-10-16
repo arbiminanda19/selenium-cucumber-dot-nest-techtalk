@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.996">
-    <testcase classname="Order" name="Order" time="19.446">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.692">
+    <testcase classname="Order" name="Order" time="13.617">
         <system-out><![CDATA[Given User is on sauce demo login page......................................passed
 When User fill standard_user and secret_sauce...............................passed
 And User click login button.................................................passed

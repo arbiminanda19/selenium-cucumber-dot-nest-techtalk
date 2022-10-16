@@ -9,7 +9,7 @@ public class Hooks extends env_target{
 
     @Before
     public void beforeTest(){
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
