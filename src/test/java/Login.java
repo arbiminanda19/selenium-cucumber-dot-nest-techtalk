@@ -2,6 +2,7 @@ import config.env_target;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,8 +13,8 @@ public class Login extends env_target {
     @Test
     public void main() {
 
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver");
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get(url);
         Duration duration = Duration.ofSeconds(10);
